@@ -1,0 +1,3 @@
+The .test files do not have the PAT_FILE_HDR so they are not "true" pattern files.
+The .pat files have the PAT_FILE_HDR so they will be recognized as pattern files.
+The STOP.pat file has a special header that I used to indicate to stop reading.

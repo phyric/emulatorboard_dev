@@ -1,0 +1,5 @@
+prefix:yuriy_threemuons_oneDCFEB
+bx keystrip pattern nhits
+6    20       10      6
+6    8        10      6
+8    15       10      5

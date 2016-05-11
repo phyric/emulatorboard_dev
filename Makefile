@@ -26,7 +26,11 @@ Sources=\
 	CSCGEMTestApplication.cc \
 	commands.cpp \
 	eth_lib.cpp \
-	utils.cpp
+	utils.cpp \
+	GEMPatternGen.cc \
+	PatternGen.cc \
+	pattern_convert.cc \
+	Yuriy_CLCT_PatternGen.cc
 
 IncludeDirs = \
 	$(XDAQ_ROOT)/include \

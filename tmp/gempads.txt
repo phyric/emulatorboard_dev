@@ -1,0 +1,9 @@
+prefix:Simpletest
+bx Pad etapartition
+01 020  4
+01 078  6
+03 046  3
+03 020  4
+06 046  3
+510 046  3
+511 046  3

@@ -1,0 +1,24 @@
+2013-07-24_00-44-05 ==> Run tests:  test3  test7
+2013-07-24_00-44-05 ==> Start  =========================================
+2013-07-24_00-44-05 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      0       0
+F2: Level-shifting Translator Bits, FPGA logic/IO :      0       0
+F3: Block RAM, FPGA logic/IO                      :      0       0
+F4a: Finisar - Rx SEU / Cannot-Write Reset        :      0       0
+F4b: Finisar - Tx SEU / Cannot-Retrieve Reset     :      0       0
+F5: Triple Voting, SEU Mitigation                 :      0       0
+F7: Resend BRAMs                                  :      0       0
+2013-07-24_00-44-05 ==> (Re)Initializing RAM Page Tests
+2013-07-24_00-44-11 ==> Counters updated:
+F3: Block RAM, FPGA logic/IO                      :      0       0
+F7: Resend BRAMs                                  :      0       0
+2013-07-24_00-44-11 ==> Stopped
+2013-07-24_00-44-11 ==> FINAL SUMMARY:
+ on? Test                                              :   #SEU  #Runaways
+     F1: Snap12 Links, FPGA logic/IO                   :      0       0
+     F2: Level-shifting Translator Bits, FPGA logic/IO :      0       0
+  *  F3: Block RAM, FPGA logic/IO                      :      0       0
+     F4a: Finisar - Rx SEU / Cannot-Write Reset        :      0       0
+     F4b: Finisar - Tx SEU / Cannot-Retrieve Reset     :      0       0
+     F5: Triple Voting, SEU Mitigation                 :      0       0
+     F7: Resend BRAMs                                  :      0       0

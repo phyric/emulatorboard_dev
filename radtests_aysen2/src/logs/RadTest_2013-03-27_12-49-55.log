@@ -1,0 +1,505 @@
+2013-03-27_12-49-55 ==> Run tests:  test1
+2013-03-27_12-49-55 ==> Start  =========================================
+2013-03-27_12-49-55 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      0       0
+F2: Level-shifting Translator Bits, FPGA logic/IO :      0       0
+F3: Block RAM, FPGA logic/IO                      :      0       0
+F4a: Finisar - Rx SEU / Cannot-Write Reset        :      0       0
+F4b: Finisar - Tx SEU / Cannot-Retrieve Reset     :      0       0
+F5: Triple Voting, SEU Mitigation                 :      0       0
+F7: Resend BRAMs                                  :      0       0
+2013-03-27_12-49-55 ==> (Re)Initializing snap12 counters: 
+    --> snap12_counts_last[0] =  0
+    --> snap12_counts_last[1] =  0
+    --> snap12_counts_last[2] =  0
+    --> snap12_counts_last[3] =  0
+    --> snap12_counts_last[4] =  0
+    --> snap12_counts_last[5] =  0
+    --> snap12_counts_last[6] =  0
+    --> snap12_counts_last[7] =  0
+2013-03-27_12-52-26 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  2
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-26 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      1       0
+2013-03-27_12-52-26 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-26 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      2       0
+2013-03-27_12-52-27 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  4
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-27 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      3       0
+2013-03-27_12-52-27 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  4
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  1
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-27 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      4       0
+2013-03-27_12-52-28 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  4
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  1
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-28 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      5       0
+2013-03-27_12-52-28 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=1): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  4
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  1
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-28 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  1
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  4
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-28 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      6       0
+2013-03-27_12-52-29 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  1
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  4
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-29 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      7       0
+2013-03-27_12-52-29 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=1): 
+    --> snap12_counts[0] =  2
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  4
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-29 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  2
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  2
+    --> snap12_counts[3] =  4
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-29 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      8       0
+2013-03-27_12-52-30 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  2
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  2
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  1
+2013-03-27_12-52-30 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      9       0
+2013-03-27_12-52-30 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  3
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  3
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  2
+2013-03-27_12-52-30 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     10       0
+2013-03-27_12-52-31 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  3
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  3
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  2
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  2
+2013-03-27_12-52-31 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     11       0
+2013-03-27_12-52-31 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  3
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  3
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  4
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  2
+2013-03-27_12-52-31 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     12       0
+2013-03-27_12-52-32 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  4
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  5
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  4
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  2
+2013-03-27_12-52-32 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     13       0
+2013-03-27_12-52-32 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  4
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  5
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  4
+    --> snap12_counts[6] =  4
+    --> snap12_counts[7] =  2
+2013-03-27_12-52-32 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     14       0
+2013-03-27_12-52-33 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  4
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  5
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  5
+    --> snap12_counts[6] =  4
+    --> snap12_counts[7] =  2
+2013-03-27_12-52-33 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     15       0
+2013-03-27_12-53-03 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  4
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  5
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  5
+    --> snap12_counts[6] =  6
+    --> snap12_counts[7] =  2
+2013-03-27_12-53-03 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     16       0
+2013-03-27_12-53-04 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  5
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  5
+    --> snap12_counts[3] =  5
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  5
+    --> snap12_counts[6] =  6
+    --> snap12_counts[7] =  3
+2013-03-27_12-53-04 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     17       0
+2013-03-27_12-53-04 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  5
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  5
+    --> snap12_counts[3] =  7
+    --> snap12_counts[4] =  1
+    --> snap12_counts[5] =  5
+    --> snap12_counts[6] =  6
+    --> snap12_counts[7] =  3
+2013-03-27_12-53-04 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     18       0
+2013-03-27_12-53-05 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  6
+    --> snap12_counts[1] =  2
+    --> snap12_counts[2] =  5
+    --> snap12_counts[3] =  7
+    --> snap12_counts[4] =  1
+    --> snap12_counts[5] =  5
+    --> snap12_counts[6] =  7
+    --> snap12_counts[7] =  3
+2013-03-27_12-53-05 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     19       0
+2013-03-27_12-53-23 ==> Paused
+2013-03-27_12-53-41 ==> Run tests:  test1
+2013-03-27_12-53-41 ==> Resume  ----------------------------------------
+2013-03-27_12-53-41 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     19       0
+2013-03-27_12-53-41 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  0
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  0
+2013-03-27_12-53-41 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     20       0
+2013-03-27_13-27-52 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  0
+    --> snap12_counts[4] =  1
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  0
+2013-03-27_13-27-52 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     21       0
+2013-03-27_13-27-52 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  2
+    --> snap12_counts[4] =  1
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  1
+    --> snap12_counts[7] =  0
+2013-03-27_13-27-52 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     22       0
+2013-03-27_13-27-53 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  2
+    --> snap12_counts[4] =  1
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  1
+    --> snap12_counts[7] =  1
+2013-03-27_13-27-53 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     23       0
+2013-03-27_13-27-53 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  2
+    --> snap12_counts[4] =  2
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  1
+    --> snap12_counts[7] =  2
+2013-03-27_13-27-53 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     24       0
+2013-03-27_13-27-54 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  2
+    --> snap12_counts[4] =  3
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  1
+    --> snap12_counts[7] =  2
+2013-03-27_13-27-54 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     25       0
+2013-03-27_13-27-54 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  3
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  1
+    --> snap12_counts[7] =  2
+2013-03-27_13-27-54 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     26       0
+2013-03-27_13-27-55 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  4
+    --> snap12_counts[5] =  0
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  2
+2013-03-27_13-27-55 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     27       0
+2013-03-27_13-27-56 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  4
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  2
+2013-03-27_13-27-56 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     28       0
+2013-03-27_13-28-15 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  5
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  2
+    --> snap12_counts[7] =  2
+2013-03-27_13-28-15 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     29       0
+2013-03-27_13-28-15 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  5
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  2
+2013-03-27_13-28-15 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     30       0
+2013-03-27_13-50-28 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  5
+    --> snap12_counts[5] =  1
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  3
+2013-03-27_13-50-28 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     31       0
+2013-03-27_13-50-29 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  5
+    --> snap12_counts[5] =  2
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  3
+2013-03-27_13-50-29 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     32       0
+2013-03-27_13-50-29 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  5
+    --> snap12_counts[5] =  2
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  4
+2013-03-27_13-50-29 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     33       0
+2013-03-27_13-50-30 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  6
+    --> snap12_counts[5] =  2
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  4
+2013-03-27_13-50-30 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     34       0
+2013-03-27_13-51-38 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  1
+    --> snap12_counts[1] =  1
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  6
+    --> snap12_counts[5] =  3
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  4
+2013-03-27_13-51-38 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     35       0
+2013-03-27_13-51-39 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  1
+    --> snap12_counts[1] =  4
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  6
+    --> snap12_counts[5] =  3
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  4
+2013-03-27_13-51-39 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     36       0
+2013-03-27_13-51-40 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  1
+    --> snap12_counts[1] =  4
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  6
+    --> snap12_counts[5] =  3
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  5
+2013-03-27_13-51-40 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     37       0
+2013-03-27_13-51-40 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  1
+    --> snap12_counts[1] =  6
+    --> snap12_counts[2] =  1
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  6
+    --> snap12_counts[5] =  3
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  5
+2013-03-27_13-51-40 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     38       0
+2013-03-27_13-51-41 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  1
+    --> snap12_counts[1] =  6
+    --> snap12_counts[2] =  2
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  6
+    --> snap12_counts[5] =  3
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  5
+2013-03-27_13-51-41 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     39       0
+2013-03-27_13-51-41 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  1
+    --> snap12_counts[1] =  7
+    --> snap12_counts[2] =  3
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  6
+    --> snap12_counts[5] =  3
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  6
+2013-03-27_13-51-41 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     40       0
+2013-03-27_13-51-42 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  2
+    --> snap12_counts[1] =  7
+    --> snap12_counts[2] =  3
+    --> snap12_counts[3] =  3
+    --> snap12_counts[4] =  6
+    --> snap12_counts[5] =  3
+    --> snap12_counts[6] =  3
+    --> snap12_counts[7] =  6
+2013-03-27_13-51-42 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     41       0
+2013-03-27_14-30-30 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :     41       0
+2013-03-27_14-30-30 ==> Stopped
+2013-03-27_14-30-30 ==> FINAL SUMMARY:
+ on? Test                                              :   #SEU  #Runaways
+  *  F1: Snap12 Links, FPGA logic/IO                   :     41       0
+     F2: Level-shifting Translator Bits, FPGA logic/IO :      0       0
+     F3: Block RAM, FPGA logic/IO                      :      0       0
+     F4a: Finisar - Rx SEU / Cannot-Write Reset        :      0       0
+     F4b: Finisar - Tx SEU / Cannot-Retrieve Reset     :      0       0
+     F5: Triple Voting, SEU Mitigation                 :      0       0
+     F7: Resend BRAMs                                  :      0       0
