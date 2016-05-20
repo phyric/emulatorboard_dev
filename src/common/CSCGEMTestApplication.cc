@@ -505,7 +505,7 @@ void CSCGEMTestApplication::Default(xgi::Input * in, xgi::Output * out ) throw (
   if(StartCFEBtxt){
     *out << cgicc::fieldset().set("style", "font-size: 11pt; background-color:#FFFFBB") << endl;
     *out << cgicc::legend("CFEB pat txt File Form").set("style", "color:blue") ;
-    *out << cgicc::form().set("method", "GET").set("action", "/" + urn + "/GenGEMPattxtFile" ) << endl;
+    *out << cgicc::form().set("method", "GET").set("action", "/" + urn + "/GenCFEBPattxtFile" ) << endl;
     *out << "CFEB txt File Directory : " << cgicc::input().set("type", "text").set("name", "CFEBtxtfileDir").set("size", "110").set("value", CFEBtxtfileDir) << endl;
     *out << cgicc::br() << endl;
     *out << cgicc::br() << endl;
@@ -543,16 +543,16 @@ void CSCGEMTestApplication::Default(xgi::Input * in, xgi::Output * out ) throw (
       string tempstring3 = "CFEBPatternNum" + number;
       string tempstring4 = "CFEBNHits" + number;
       *out << cgicc::td().set("ALIGN","center");
-      *out << cgicc::input().set("type", "text").set("name", "tempstring1").set("size", "6").set("value", BxArray[i]);
+      *out << cgicc::input().set("type", "text").set("name", tempstring1).set("size", "6").set("value", BxArray[i]);
       *out << cgicc::td();
       *out << cgicc::td().set("ALIGN","center");
-      *out << cgicc::input().set("type", "text").set("name", "tempstring2").set("size", "6").set("value", KeyStripArray[i]);
+      *out << cgicc::input().set("type", "text").set("name", tempstring2).set("size", "6").set("value", KeyStripArray[i]);
       *out << cgicc::td();
       *out << cgicc::td().set("ALIGN","center");
-      *out << cgicc::input().set("type", "text").set("name", "tempstring3").set("size", "6").set("value", PatternNumArray[i]);
+      *out << cgicc::input().set("type", "text").set("name", tempstring3).set("size", "6").set("value", PatternNumArray[i]);
       *out << cgicc::td();
       *out << cgicc::td().set("ALIGN","center");
-      *out << cgicc::input().set("type", "text").set("name", "tempstring4").set("size", "6").set("value", NHitsArray[i]);
+      *out << cgicc::input().set("type", "text").set("name", tempstring4).set("size", "6").set("value", NHitsArray[i]);
       *out << cgicc::td() << cgicc::tr();
     }
     *out << cgicc::table() << cgicc::br();
@@ -1055,16 +1055,47 @@ void CSCGEMTestApplication::GenCFEBPattxtFile(xgi::Input * in, xgi::Output * out
 {
   using namespace std;
   cgicc::Cgicc cgi(in);
+  std::cout << "------------this is the num_mouns char output: second time" << CFEBtxtMounNchar << "\n";
+  //there is probably a much better way to do this that does not involve having to store all the numbers in huge character arrays
+  //but this is the temperary solution for now.
+  //If it begins to slow things down, it can be changed later.
+  if (CFEBtxtMounNint > 0) {
+    if(xgi::Utils::hasFormElement(cgi, "CFEBtxtfileDir")) sprintf(CFEBtxtfileDir,cgi["CFEBtxtfileDir"]->getValue().c_str());
+    if(xgi::Utils::hasFormElement(cgi, "CFEBtxtfileName")) sprintf(CFEBtxtfileName,cgi["CFEBtxtfileName"]->getValue().c_str());
+    if(xgi::Utils::hasFormElement(cgi, "CFEBtxtprefix")) sprintf(CFEBtxtprefix,cgi["CFEBtxtprefix"]->getValue().c_str());
 
-  for (int i = 0; i < 512; ++i) {
-    string number;          // string which will contain the result
-    std::ostringstream convert;   // stream used for the conversion
-    convert << i;      // insert the textual representation of 'Number' in the characters in the stream
-    number = convert.str();
-    string tempstring = "GemBx" + number;
-    if(xgi::Utils::hasFormElement(cgi,tempstring)) sprintf(testingarray[i],cgi[tempstring]->getValue().c_str());
+    char filename[400] = {0};
+    strcpy(filename,CFEBtxtfileDir);
+    strcat(filename,"/");
+    strcat(filename,CFEBtxtfileName);
+
+    std::cout << "The location of the new txt file is " << filename << endl;
+
+    std::ofstream CFEBtxt (filename, std::ofstream::out | std::ofstream::trunc);
+    CFEBtxt << "prefix:" << CFEBtxtprefix << std::endl;
+    CFEBtxt << "bx keystrip pattern nhits" << std::endl;
+
+    for (int i = 0; i < CFEBtxtMounNint; ++i) {
+      string number;          // string which will contain the result
+      std::ostringstream convert;   // stream used for the conversion
+      convert << i;      // insert the textual representation of 'Number' in the characters in the stream
+      number = convert.str();
+      string tempstring1 = "CFEBBx" + number;
+      string tempstring2 = "CFEBKeyStrip" + number;
+      string tempstring3 = "CFEBPatternNum" + number;
+      string tempstring4 = "CFEBNHits" + number;
+      if(xgi::Utils::hasFormElement(cgi,tempstring1)) sprintf(BxArray[i],cgi[tempstring1]->getValue().c_str());
+      if(xgi::Utils::hasFormElement(cgi,tempstring2)) sprintf(KeyStripArray[i],cgi[tempstring2]->getValue().c_str());
+      if(xgi::Utils::hasFormElement(cgi,tempstring3)) sprintf(PatternNumArray[i],cgi[tempstring3]->getValue().c_str());
+      if(xgi::Utils::hasFormElement(cgi,tempstring4)) sprintf(NHitsArray[i],cgi[tempstring4]->getValue().c_str());
+
+      CFEBtxt << BxArray[i] << "\t" << KeyStripArray[i] << "\t" << PatternNumArray[i] << "\t" << NHitsArray[i] << "\t" << std::endl;
+
+    }
+
+    CFEBtxt.close();
   }
-
+  std::cout << "The txt file has been successfully created with " << CFEBtxtMounNint << " mouns. ****************************************************" << endl;
   startgemtxt = false;
 
   this->Default(in, out);
